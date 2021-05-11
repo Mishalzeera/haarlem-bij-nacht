@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Haarlem Bij Nacht</title>
     <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+</head>
 
-  <body>
-    <div class="dual-container">
-      <div class="photo-container">
-        <img src="assets/img/hbn1.jpg" alt="" />
-        <img src="assets/img/hbn2.jpg" alt="" />
-      </div>
-      <div class="text-container"></div>
+<body>
+    <div class="dual-container flex-parent">
+        <div class="photo-container flex-child">
+            <img src="assets/img/hbn1.jpg" alt="" id="current-photo" />
+
+        </div>
+        <div class="text-container flex-child"></div>
+        <button onclick="choosePic();" id="rnd-btn">Try your luck!</button>
     </div>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>

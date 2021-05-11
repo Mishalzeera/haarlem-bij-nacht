@@ -10,21 +10,35 @@ body {
 }
 
 img {
-    width: 50%;
+    width: 100%;
     display: block;
-    margin-left: auto;
+    /* margin-left: auto; */
+}
+
+.dual-container {
+    max-width: 55%;
+    margin: 0 auto;
 }
 
 .flex-parent {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
 }
 
 .flex-child {
+    max-width: 50%;
+    max-height: 50%;
     margin: .5rem;
 }
 
+.photo-container {
+    max-width: 100%;
+}
+
+.text-container {}
+
 #rnd-btn {
+    display: block;
     border: none;
     margin: 3rem auto;
     padding: 1rem 3rem;

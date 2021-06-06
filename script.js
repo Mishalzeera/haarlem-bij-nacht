@@ -1,4 +1,4 @@
-window.onload = choosePic;
+window.onload = randomPicIconText;
 
 let imgBank = new Array(
   "assets/img/hbn1.jpg",
@@ -43,7 +43,7 @@ let iconBank = new Array(
   "assets/btn-img/flower7.png"
 );
 
-function choosePic() {
+function randomPicIconText() {
   const randomNum = Math.floor(Math.random() * imgBank.length);
   document.getElementById("current-photo").src = imgBank[randomNum];
 

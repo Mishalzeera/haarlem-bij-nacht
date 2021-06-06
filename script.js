@@ -33,7 +33,19 @@ let imgBank = new Array(
   "assets/img/hbn30.jpg"
 );
 
+let iconBank = new Array(
+  "assets/btn-img/flower1.png",
+  "assets/btn-img/flower2.png",
+  "assets/btn-img/flower3.png",
+  "assets/btn-img/flower4.png",
+  "assets/btn-img/flower5.png",
+  "assets/btn-img/flower6.png",
+  "assets/btn-img/flower7.png"
+);
+
 function choosePic() {
   const randomNum = Math.floor(Math.random() * imgBank.length);
   document.getElementById("current-photo").src = imgBank[randomNum];
+
+  const randomNum2 = Math.floor(Math.random() * iconBank.length);
 }

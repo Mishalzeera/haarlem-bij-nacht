@@ -43,10 +43,18 @@ let iconBank = new Array(
   "assets/btn-img/flower7.png"
 );
 
+let textBank = new Array(
+  "assets/texts/text-1.jpg",
+  "assets/texts/text-2.jpg",
+  "assets/texts/text-3.jpg"
+);
+
 function randomPicIconText() {
   const randomNum = Math.floor(Math.random() * imgBank.length);
   document.getElementById("current-photo").src = imgBank[randomNum];
 
+  const randomNum2 = Math.floor(Math.random() * textBank.length);
+  document.querySelector("#current-text").src = textBank[randomNum2];
   const randomNum3 = Math.floor(Math.random() * iconBank.length);
   document.querySelector("#btn-icon").src = iconBank[randomNum3];
 }

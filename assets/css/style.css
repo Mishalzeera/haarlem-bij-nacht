@@ -126,7 +126,8 @@ img {
 }
 
 .contact-book-link a {
-  color: var(--global-text-colour);
+  background-color: var(--global-text-colour);
+  color: var(--body-background-colour);
   text-decoration: none;
   border: 1px solid var(--global-text-colour);
   padding: 0.5rem 1.5rem;

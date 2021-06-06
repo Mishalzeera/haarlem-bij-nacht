@@ -4,17 +4,19 @@
   box-sizing: border-box;
 }
 
+:root {
+  --body-background-colour: #222;
+  --global-text-colour: rgba(240, 241, 255, 0.842);
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgba(240, 241, 255, 0.514);
-  background-color: #222;
+  color: var(--global-text-colour);
+  background-color: var(--body-background-colour);
 }
 
 img {
   width: 100%;
   display: block;
-
-  /* margin-left: auto; */
 }
 
 .header-flex {
@@ -92,8 +94,25 @@ img {
 #index-btn {
   margin-top: 55vh;
   background-color: black;
-  color: rgba(240, 241, 255, 0.842);
   font-size: 1.1rem;
   text-transform: lowercase;
   letter-spacing: 3px;
+}
+
+.contact-container {
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+.contact-p-header {
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.contact-paragraph {
+  text-align: justify;
+  line-height: 1.6;
+  margin-top: 2rem;
+  font-size: 1.3rem;
 }

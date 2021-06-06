@@ -47,6 +47,6 @@ function randomPicIconText() {
   const randomNum = Math.floor(Math.random() * imgBank.length);
   document.getElementById("current-photo").src = imgBank[randomNum];
 
-  const randomNum2 = Math.floor(Math.random() * iconBank.length);
-  document.querySelector("#btn-icon").src = iconBank[randomNum2];
+  const randomNum3 = Math.floor(Math.random() * iconBank.length);
+  document.querySelector("#btn-icon").src = iconBank[randomNum3];
 }

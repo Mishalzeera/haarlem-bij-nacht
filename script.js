@@ -48,4 +48,5 @@ function choosePic() {
   document.getElementById("current-photo").src = imgBank[randomNum];
 
   const randomNum2 = Math.floor(Math.random() * iconBank.length);
+  document.querySelector("#btn-icon").src = iconBank[randomNum2];
 }

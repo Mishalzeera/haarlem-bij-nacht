@@ -53,6 +53,16 @@ img {
   font-size: 3rem;
 }
 
+@media (max-width: 580px) {
+  .index-section-h2 {
+    font-size: 2rem;
+    margin-top: 7rem;
+    
+  }
+  .index-head-text {
+    font-size: 1.5rem;}
+}
+
 .dual-container {
   max-width: 80%;
   margin: 0 auto;
@@ -100,6 +110,11 @@ img {
   letter-spacing: 3px;
   color: var(--global-text-colour);
 }
+
+@media (max-width: 580px) {
+  #index-btn {
+    margin-top: 25vh;
+  }
 
 .contact-container {
   margin: 0 auto;

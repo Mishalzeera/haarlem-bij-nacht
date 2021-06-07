@@ -120,18 +120,21 @@ img {
 }
 
 .contact-book-link {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: 10rem;
   text-align: center;
 }
 
 .contact-book-link a {
+  display: block;
   background-color: var(--global-text-colour);
   color: var(--body-background-colour);
   text-decoration: none;
+
   border: 1px solid var(--global-text-colour);
+  width: 50%;
   padding: 0.5rem 1.5rem;
-  margin: 0 0.5rem;
+  margin: 1rem auto;
   transition: all 300ms ease-in-out;
 }
 

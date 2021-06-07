@@ -74,9 +74,12 @@ img {
   flex-direction: row;
 }
 
+
+
 .flex-child {
   margin: 0.5rem;
 }
+
 
 .photo-container {
   max-width: 100%;
@@ -85,6 +88,18 @@ img {
 .text-container {
 }
 
+
+@media (max-width: 950px){
+  .flex-parent {
+    flex-direction: column;
+  }
+  .photo-container {
+    order: 2;
+  }
+  .text-container {
+    order: 1;
+  }
+}
 #index-btn,
 #rnd-btn {
   display: block;

@@ -50,8 +50,8 @@ let iconBank = new Array(
 // );
 
 let textBank = [
-  "A poem should be long, not too long. It should be short, not too short. It should be good. It should be clever. Lets sleep.",
-  "The pillow is a magnetic negative pole. My head, positive. I took a Xanax. I'm stuck. It's lovely.",
+  "A poem should be long, not too long. It should be short, not too short. It should be good. It should be clever. Lets sleep. We can do the rest in the morning.",
+  "The pillow is a magnetic negative pole. My head is a positive one. I took a Xanax. I'm stuck. It's lovely. The room lights up, a shock to my narcotic stillness. A message on my phone. Worse yet, an emoji.",
   "Sometimes the moonlight is like your mothers milk, primary and caressing. There is no world. All pain ends.",
   "Joshua, Marike and Mish were sitting in the park. Mish had swallowed the world. Marike was trying the Heimlich. Josh expelled gas. It worked!",
 ];

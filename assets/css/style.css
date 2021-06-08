@@ -160,8 +160,8 @@ img {
 
 .contact-book-link a {
   display: block;
-  background-color: var(--global-text-colour);
-  color: var(--body-background-colour);
+  background-color: black;
+  color: white;
   text-decoration: none;
 
   border: 1px solid var(--global-text-colour);

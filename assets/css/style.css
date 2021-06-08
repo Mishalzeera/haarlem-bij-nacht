@@ -14,6 +14,10 @@ body {
   background-color: var(--body-background-colour);
 }
 
+.lg-size-container {
+  max-width: 2500px;
+}
+
 img {
   width: 100%;
   display: block;
@@ -89,6 +93,7 @@ img {
   font-size: 3rem;
   /* line-height: ; */
   text-align: right;
+  max-width: 100%;
 }
 
 @media (max-width: 950px) {
@@ -99,6 +104,8 @@ img {
     order: 2;
   }
   .text-container {
+    font-size: 2.5rem;
+    text-align: left;
     order: 1;
   }
 }
@@ -129,8 +136,17 @@ img {
 }
 
 @media (max-width: 580px) {
+  .dual-container {
+    max-width: 90%;
+  }
   #index-btn {
     margin-top: 25vh;
+  }
+
+  .text-container {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
   }
 }
 .contact-container {

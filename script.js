@@ -1,4 +1,6 @@
+
 window.onload = randomPicIconText;
+
 
 let imgBank = new Array(
   "assets/img/hbn1.jpg",
@@ -59,6 +61,8 @@ let textBank = [
   `They hover around my pillow, to remind me when I return. Some are like puffs of perfume. Some are like the updraft from the sewer. They say "The Night's sleep is a life that lives forever!" I wonder if they will ever make an app that will turn them into films.`,
 ];
 
+
+
 function randomPicIconText() {
   const randomNum = Math.floor(Math.random() * imgBank.length);
   document.getElementById("current-photo").src = imgBank[randomNum];
@@ -68,6 +72,17 @@ function randomPicIconText() {
   const randomNum3 = Math.floor(Math.random() * iconBank.length);
   document.querySelector("#btn-icon").src = iconBank[randomNum3];
 
-  gsap.fromTo(".flex-child", {opacity: .1}, {duration: .4, opacity: 1});
+  gsap.fromTo(".photo-container", {opacity: .1}, {duration: .4, opacity: 1});
+  gsap.fromTo(".text-container", {opacity: .1}, {duration: .4, opacity: 1});
+  gsap.fromTo("#rnd-btn", {opacity: .1}, {duration: .4, opacity: 1});
+  
    
+}
+
+function contactFade(){
+  gsap.fromTo("body", {opacity: .1}, {duration: .4, opacity: 1});
+}
+
+function indexFade(){
+  gsap.fromTo("body", {opacity: .1}, {duration: .4, opacity: 1});
 }

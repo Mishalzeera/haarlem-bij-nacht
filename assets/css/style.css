@@ -6,7 +6,7 @@
 
 :root {
   --body-background-colour: #222;
-  --global-text-colour: rgba(240, 241, 255, 0.842);
+  --global-text-colour: rgba(240, 241, 255, 0.767);
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -161,7 +161,7 @@ img {
 .contact-book-link a {
   display: block;
   background-color: black;
-  color: white;
+  color: rgb(233, 221, 221);
   text-decoration: none;
 
   border: 1px solid var(--global-text-colour);

@@ -43,18 +43,25 @@ let iconBank = new Array(
   "assets/btn-img/flower7.png"
 );
 
-let textBank = new Array(
-  "assets/texts/text-1.jpg",
-  "assets/texts/text-2.jpg",
-  "assets/texts/text-3.jpg"
-);
+// let textBank = new Array(
+//   "assets/texts/text-1.jpg",
+//   "assets/texts/text-2.jpg",
+//   "assets/texts/text-3.jpg"
+// );
+
+let textBank = [
+  "A poem should be long, not too long. It should be short, not too short. It should be good. It should be clever. Lets sleep.",
+  "The pillow is a magnetic negative pole. My head, positive. I took a Xanax. I'm stuck. It's lovely.",
+  "Sometimes the moonlight is like your mothers milk, primary and caressing. There is no world. All pain ends.",
+  "Joshua, Marike and Mish were sitting in the park. Mish had swallowed the world. Marike was trying the Heimlich. Josh expelled gas. It worked!",
+];
 
 function randomPicIconText() {
   const randomNum = Math.floor(Math.random() * imgBank.length);
   document.getElementById("current-photo").src = imgBank[randomNum];
 
   const randomNum2 = Math.floor(Math.random() * textBank.length);
-  document.querySelector("#current-text").src = textBank[randomNum2];
+  document.querySelector("#current-text").textContent = textBank[randomNum2];
   const randomNum3 = Math.floor(Math.random() * iconBank.length);
   document.querySelector("#btn-icon").src = iconBank[randomNum3];
 }

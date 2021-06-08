@@ -67,4 +67,7 @@ function randomPicIconText() {
   document.querySelector("#current-text").textContent = textBank[randomNum2];
   const randomNum3 = Math.floor(Math.random() * iconBank.length);
   document.querySelector("#btn-icon").src = iconBank[randomNum3];
+
+  gsap.fromTo(".flex-child", {opacity: .1}, {duration: .4, opacity: 1});
+   
 }

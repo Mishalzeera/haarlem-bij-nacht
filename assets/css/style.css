@@ -85,6 +85,10 @@ img {
 .text-container {
   background-color: #222;
   width: 1000px;
+  color: var(--global-text-colour);
+  font-size: 3rem;
+  /* line-height: ; */
+  text-align: right;
 }
 
 @media (max-width: 950px) {

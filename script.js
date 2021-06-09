@@ -1,6 +1,4 @@
-
 window.onload = randomPicIconText;
-
 
 let imgBank = new Array(
   "assets/img/hbn1.jpg",
@@ -52,16 +50,14 @@ let iconBank = new Array(
 // );
 
 let textBank = [
-  `Be long, not too long, short, not too short. Too difficult? Come - lets sleep. We can do the rest in the morning. She says no, there is something left to do. But darling, there is never anything to do. Things just happen when you abandon ownership.`,
-  `The pillow is a magnetic negative pole. My head is a positive one. I took a Xanax. I'm stuck. It's lovely. The room lights up, a shock to my narcotic stillness. A message on my phone. Worse yet, an emoji.`,
+  `Be long, not too long, short, not too short. Too difficult? Come - lets sleep. We can do the rest in the morning. She says no, there is something left to do. The gap between us, tired, yawns.`,
+  `The pillow is a magnetic negative pole. My head is a positive one. I took a Xanax and now I'm stuck. The room lights up, a shock to my narcotic stillness. A message on my phone. Worse yet, an emoji.`,
   `Sometimes the moonlight is like your mothers milk, primary and caressing. There is no world. All pain ends.`,
   `Joshua, Marike and Mish were sitting in the park. It was the dead of night. Mish had swallowed the world. Marike was trying the Heimlich. Josh expelled gas. Mish laughed, Atlas came flying out. It worked!`,
   `A single column in the night. Not too bright a glow. With my eyes closed I didn't notice. The ghost of an end - far overreached but never attained - smiles at me. I snore, sleeping.`,
   `Celestial objects hang on threads. Will I ever know them? The threat of morning has no bite at this hour. I look up, to where I've looked so many times, the same threads pulling me. `,
   `They hover around my pillow, to remind me when I return. Some are like puffs of perfume. Some are like the updraft from the sewer. They say "The Night's sleep is a life that lives forever!" I wonder if they will ever make an app that will turn them into films.`,
 ];
-
-
 
 function randomPicIconText() {
   const randomNum = Math.floor(Math.random() * imgBank.length);
@@ -72,17 +68,23 @@ function randomPicIconText() {
   const randomNum3 = Math.floor(Math.random() * iconBank.length);
   document.querySelector("#btn-icon").src = iconBank[randomNum3];
 
-  gsap.fromTo(".photo-container", {opacity: .1}, {duration: .4, opacity: 1});
-  gsap.fromTo(".text-container", {opacity: .1}, {duration: .4, opacity: 1});
-  gsap.fromTo("#rnd-btn", {opacity: .1}, {duration: .4, opacity: 1});
-  
-   
+  gsap.fromTo(
+    ".photo-container",
+    { opacity: 0.1 },
+    { duration: 0.4, opacity: 1 }
+  );
+  gsap.fromTo(
+    ".text-container",
+    { opacity: 0.1 },
+    { duration: 0.4, opacity: 1 }
+  );
+  gsap.fromTo("#rnd-btn", { opacity: 0.1 }, { duration: 0.4, opacity: 1 });
 }
 
-function contactFade(){
-  gsap.fromTo("body", {opacity: .1}, {duration: .4, opacity: 1});
+function contactFade() {
+  gsap.fromTo("body", { opacity: 0.1 }, { duration: 0.4, opacity: 1 });
 }
 
-function indexFade(){
-  gsap.fromTo("body", {opacity: .1}, {duration: .4, opacity: 1});
+function indexFade() {
+  gsap.fromTo("body", { opacity: 0.1 }, { duration: 0.4, opacity: 1 });
 }

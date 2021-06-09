@@ -154,6 +154,10 @@ img {
   max-width: 65%;
 }
 
+.contact-flex-parent {
+  display: flex;
+  flex-direction: column;
+}
 .contact-p-header {
   margin-top: 2.5rem;
   font-size: 2rem;
@@ -209,7 +213,13 @@ img {
     width: 80%;
     margin-top: 2.5rem;
   }
-  .contact-paragraph {
+
+  .contact-paragraph-section {
+    order: 2;
     line-height: 1.5;
+  }
+  .contact-book-link {
+    margin-top: 2rem;
+    order: 1;
   }
 }

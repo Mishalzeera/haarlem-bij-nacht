@@ -7,14 +7,14 @@
 }
 
 :root {
-  --body-background-colour: #222;
+  --body-background-colour: rgb(19, 18, 18);
   --global-text-colour: rgba(240, 241, 255, 0.767);
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  /* font-family: Lato; */
-  /* font-weight: 100; */
-  font-weight: lighter;
+  font-family: Lato;
+  font-weight: 100;
+  /* font-weight: lighter; */
   color: var(--global-text-colour);
   background-color: var(--body-background-colour);
 }
@@ -46,9 +46,11 @@ img {
 
 .head-text {
   line-height: 1.4;
+  font-weight: 300;
   margin: 1rem;
-  width: 15rem;
+  width: 30%;
   text-align: center;
+  letter-spacing: 3px;
 }
 
 .index-head-text {
@@ -60,6 +62,7 @@ img {
   text-align: center;
   font-weight: unset;
   font-size: 3rem;
+  letter-spacing: 3px;
 }
 
 @media (max-width: 580px) {
@@ -84,7 +87,7 @@ img {
 }
 
 .flex-child {
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 .photo-container {
@@ -92,7 +95,7 @@ img {
 }
 
 .text-container {
-  background-color: #222;
+  background-color: var(--body-background-colour);
   width: 1000px;
   color: var(--global-text-colour);
   font-size: 3rem;
@@ -144,6 +147,10 @@ img {
   .dual-container {
     max-width: 90%;
   }
+
+  .flex-child {
+    margin: 0.5rem;
+  }
   #index-btn {
     margin-top: 25vh;
   }
@@ -164,6 +171,8 @@ img {
   flex-direction: column;
 }
 .contact-p-header {
+  font-family: inherit;
+  font-weight: 400;
   margin-top: 2.5rem;
   font-size: 2rem;
   text-align: center;
@@ -185,10 +194,10 @@ img {
 
 .contact-book-link a {
   display: block;
-  background-color: black;
-  color: rgb(233, 221, 221);
+  background-color: var(--global-text-colour);
+  color: var(--body-background-colour);
   text-decoration: none;
-
+  font-weight: 700;
   border: 1px solid var(--global-text-colour);
   width: 100%;
   padding: 1rem 1.5rem;

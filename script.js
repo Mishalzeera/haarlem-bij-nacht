@@ -86,5 +86,5 @@ function contactFade() {
 }
 
 function indexFade() {
-  gsap.fromTo("body", { opacity: 0.1 }, { duration: 0.4, opacity: 1 });
+  gsap.fromTo("body", { opacity: 0.1 }, { duration: 4, opacity: 1 });
 }

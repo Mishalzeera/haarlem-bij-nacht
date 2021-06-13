@@ -68,23 +68,13 @@ function randomPicIconText() {
   const randomNum3 = Math.floor(Math.random() * iconBank.length);
   document.querySelector("#btn-icon").src = iconBank[randomNum3];
 
-  gsap.fromTo(
-    ".photo-container",
-    { opacity: 0.1 },
-    { duration: 0.4, opacity: 1 }
-  );
-  gsap.fromTo(
-    ".text-container",
-    { opacity: 0.1 },
-    { duration: 0.4, opacity: 1 }
-  );
-  gsap.fromTo("#rnd-btn", { opacity: 0.1 }, { duration: 0.4, opacity: 1 });
+
 }
 
 function contactFade() {
-  gsap.fromTo("body", { opacity: 0.1 }, { duration: 0.4, opacity: 1 });
+ 
 }
 
 function indexFade() {
-  gsap.fromTo("body", { opacity: 0.1 }, { duration: 4, opacity: 1 });
+
 }

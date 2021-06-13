@@ -1,6 +1,14 @@
-window.onload = randomPicIconText;
+$(document).ready(function(){
+    
+  indexFade();
+  randomPicIconText() ;
 
-let imgBank = new Array(
+
+
+})
+
+
+let imgBank = [
   "assets/img/hbn1.jpg",
   "assets/img/hbn2.jpg",
   "assets/img/hbn3.jpg",
@@ -31,9 +39,9 @@ let imgBank = new Array(
   "assets/img/hbn28.jpg",
   "assets/img/hbn29.jpg",
   "assets/img/hbn30.jpg"
-);
+];
 
-let iconBank = new Array(
+let iconBank = [
   "assets/btn-img/flower1.png",
   "assets/btn-img/flower2.png",
   "assets/btn-img/flower3.png",
@@ -41,13 +49,8 @@ let iconBank = new Array(
   "assets/btn-img/flower5.png",
   "assets/btn-img/flower6.png",
   "assets/btn-img/flower7.png"
-);
+];
 
-// let textBank = new Array(
-//   "assets/texts/text-1.jpg",
-//   "assets/texts/text-2.jpg",
-//   "assets/texts/text-3.jpg"
-// );
 
 let textBank = [
   `Be long, not too long, short, not too short. Too difficult. Come - lets sleep. We can do the rest in the morning. She says no. There is much, so much, left to do. I go to bed, carefree.`,
@@ -68,13 +71,17 @@ function randomPicIconText() {
   const randomNum3 = Math.floor(Math.random() * iconBank.length);
   document.querySelector("#btn-icon").src = iconBank[randomNum3];
 
+  $('.dual-container, #rnd-btn').hide().fadeIn(400);
+ 
+  // gsap.from('#rnd-btn', {rotation: 90, x:100, duration: .2});
+  
 
 }
 
-function contactFade() {
- 
+function mediumFade() {
+  $('body').fadeIn(800);
 }
 
 function indexFade() {
-
+  $('.index-body').fadeIn(3000);
 }

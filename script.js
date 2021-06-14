@@ -71,9 +71,9 @@ function randomPicIconText() {
   const randomNum3 = Math.floor(Math.random() * iconBank.length);
   document.querySelector("#btn-icon").src = iconBank[randomNum3];
 
-  $('.dual-container, #rnd-btn').hide().fadeIn(400);
+  $('.text-container, #rnd-btn').hide().fadeIn(400);
  
-  // gsap.from('#rnd-btn', {rotation: 90, x:100, duration: .2});
+  gsap.fromTo('.photo-container', {opacity: 0}, {duration: .4, opacity: 1});
   
 
 }

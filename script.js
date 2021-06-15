@@ -1,12 +1,7 @@
-$(document).ready(function(){
-    
+$(document).ready(function () {
   indexFade();
-  randomPicIconText() ;
-
-
-
-})
-
+  randomPicIconText();
+});
 
 let imgBank = [
   "assets/img/hbn1.jpg",
@@ -38,7 +33,7 @@ let imgBank = [
   "assets/img/hbn27.jpg",
   "assets/img/hbn28.jpg",
   "assets/img/hbn29.jpg",
-  "assets/img/hbn30.jpg"
+  "assets/img/hbn30.jpg",
 ];
 
 let iconBank = [
@@ -48,18 +43,67 @@ let iconBank = [
   "assets/btn-img/flower4.png",
   "assets/btn-img/flower5.png",
   "assets/btn-img/flower6.png",
-  "assets/btn-img/flower7.png"
+  "assets/btn-img/flower7.png",
 ];
 
-
 let textBank = [
-  `Be long, not too long, short, not too short. Too difficult. Come - lets sleep. We can do the rest in the morning. She says no. There is much, so much, left to do. I go to bed, carefree.`,
-  `The pillow is a magnetic negative pole. My head is a positive one. I took a Xanax and now I'm stuck. The room lights up, a shock to my narcotic stillness. A message on my phone. Worse yet, an emoji.`,
-  `Sometimes the moonlight is like your mothers milk, primary and caressing. All pain eventually ends.`,
-  `Joshua, Marike and Mish were sitting in the park. It was the dead of night. Mish had swallowed the world. Marike was trying the Heimlich. Josh expelled gas. Mish laughed, Atlas came flying out. It worked!`,
-  `A single column in the night. Not too bright a glow. With my eyes closed I didn't notice. The ghost of an ambition - far overreached but never attained - smiles at me. I snore, sleeping.`,
-  `Celestial objects hang on threads. Will I ever know them? The threat of morning has no bite at this hour. I look up, to where I've looked so many times. The same threads pull me. `,
-  `They hover around my pillow, to remind me when I return. Some are like puffs of perfume. Some are like the updraft from a sewer. They say, "The Night's sleep is a life that lives forever!" They know I will turn them into books.`,
+  `Zo kut corona Zoom 
+  Zo coordinated Zoom
+  Zo mediated Zoom
+  Zo self meditcated Zoom
+  Zo dishevelled Zoom
+  Zo cluttered kitchen table Zoom
+  Zo downward facing dog yoga class Zoom`,
+  `The corona virus had for a brief second, comfortable people considering a basic
+  income for everyone. That moment has come and gone.`,
+  `The corona virus was a crash course in civil discourse that more than half the class
+  in the end failed.`,
+  `I’d rather that we
+  could do any one of these things that
+  would normally bore the shit
+  out of me`,
+  `but right now
+  we can’t.
+  So we don’t.
+  Maybe someday
+  we will.`,
+  `The birds watch us as we pace in our gardens.
+  The empty skies remind us that we are supposed to
+  stay in place.`,
+  `a time before everyone
+  had been aware of their own
+  conscious will and
+  that some thought
+  that this was ok.`,
+  `The knowledge of nothing and the sanctity of nowhere.`,
+  `This is the world where the damage done has only just begun.
+  `,
+  `This is the world where one should be grateful for quiet neighbors.
+  `,
+  `Ink smeared and smudged,
+  words illegible
+  the dreams vanished from memory
+  as dreams so often
+  tend to do.`,
+  `It is never too late to look
+  amongst the loose change
+  for the mind you lost`,
+  `they are having discussions
+  and are making decisions
+  that are causing divisions`,
+  `the peanut butter is finished
+  and the dog is eyeing the rabbits
+  and there is a princess fluttering around`,
+  `non-answers to most of my random questions,
+  `,
+  `shelter from the storm
+  is a makeshift tent of
+  stolen isolation material
+  or a cardboard box`,
+  `and as unusual as all this
+  might seem to be`,
+  `when we heard the news that Tom Hanks
+  had contracted the coronavirus`,
 ];
 
 function randomPicIconText() {
@@ -71,17 +115,19 @@ function randomPicIconText() {
   const randomNum3 = Math.floor(Math.random() * iconBank.length);
   document.querySelector("#btn-icon").src = iconBank[randomNum3];
 
-  $('.text-container, #rnd-btn').hide().fadeIn(400);
- 
-  gsap.fromTo('.photo-container', {opacity: 0}, {duration: .4, opacity: 1});
-  
+  $(".text-container, #rnd-btn").hide().fadeIn(400);
 
+  gsap.fromTo(
+    ".photo-container",
+    { opacity: 0 },
+    { duration: 0.4, opacity: 1 }
+  );
 }
 
 function mediumFade() {
-  $('body').fadeIn(800);
+  $("body").fadeIn(800);
 }
 
 function indexFade() {
-  $('.index-body').fadeIn(3000);
+  $(".index-body").fadeIn(3000);
 }

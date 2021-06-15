@@ -50,7 +50,7 @@ let textBank = [
   `Zo kut corona Zoom 
   Zo coordinated Zoom
   Zo mediated Zoom
-  Zo self meditcated Zoom
+  Zo self medicated Zoom
   Zo dishevelled Zoom
   Zo cluttered kitchen table Zoom
   Zo downward facing dog yoga class Zoom`,
@@ -62,7 +62,7 @@ let textBank = [
   could do any one of these things that
   would normally bore the shit
   out of me`,
-  `but right now
+  `But right now
   we can’t.
   So we don’t.
   Maybe someday
@@ -70,7 +70,7 @@ let textBank = [
   `The birds watch us as we pace in our gardens.
   The empty skies remind us that we are supposed to
   stay in place.`,
-  `a time before everyone
+  `A time before everyone
   had been aware of their own
   conscious will and
   that some thought
@@ -88,21 +88,21 @@ let textBank = [
   `It is never too late to look
   amongst the loose change
   for the mind you lost`,
-  `they are having discussions
+  `They are having discussions
   and are making decisions
   that are causing divisions`,
-  `the peanut butter is finished
+  `The peanut butter is finished
   and the dog is eyeing the rabbits
   and there is a princess fluttering around`,
-  `non-answers to most of my random questions,
+  `Non-answers to most of my random questions
   `,
-  `shelter from the storm
+  `Shelter from the storm
   is a makeshift tent of
   stolen isolation material
   or a cardboard box`,
-  `and as unusual as all this
+  `And as unusual as all this
   might seem to be`,
-  `when we heard the news that Tom Hanks
+  `When we heard the news that Tom Hanks
   had contracted the coronavirus`,
 ];
 

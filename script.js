@@ -62,7 +62,7 @@ let textBank = [
   could do any one of these things that
   would normally bore the shit
   out of me`,
-  `But right now
+  `...but right now
   we can’t.
   So we don’t.
   Maybe someday
@@ -70,12 +70,12 @@ let textBank = [
   `The birds watch us as we pace in our gardens.
   The empty skies remind us that we are supposed to
   stay in place.`,
-  `A time before everyone
+  `...a time before everyone
   had been aware of their own
   conscious will and
   that some thought
   that this was ok.`,
-  `The knowledge of nothing and the sanctity of nowhere.`,
+  `The knowledge of nothing and the sanctity of nowhere...`,
   `This is the world where the damage done has only just begun.
   `,
   `This is the world where one should be grateful for quiet neighbors.
@@ -87,23 +87,23 @@ let textBank = [
   tend to do.`,
   `It is never too late to look
   amongst the loose change
-  for the mind you lost`,
+  for the mind you lost.`,
   `They are having discussions
   and are making decisions
-  that are causing divisions`,
+  that are causing divisions.`,
   `The peanut butter is finished
   and the dog is eyeing the rabbits
-  and there is a princess fluttering around`,
-  `Non-answers to most of my random questions
+  and there is a princess fluttering around.`,
+  `...non-answers to most of my random questions...
   `,
   `Shelter from the storm
   is a makeshift tent of
   stolen isolation material
-  or a cardboard box`,
-  `And as unusual as all this
-  might seem to be`,
-  `When we heard the news that Tom Hanks
-  had contracted the coronavirus`,
+  or a cardboard box.`,
+  `...and as unusual as all this
+  might seem to be.`,
+  `...when we heard the news that Tom Hanks
+  had contracted the coronavirus...`,
 ];
 
 function randomPicIconText() {

@@ -151,7 +151,7 @@ img {
 #index-btn {
   margin-top: 35vh;
   background-color: black;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-transform: lowercase;
   letter-spacing: 2px;
   color: var(--global-text-colour);

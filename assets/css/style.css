@@ -105,7 +105,7 @@ img {
   background-color: var(--body-background-colour);
   width: 1000px;
   color: var(--global-text-colour);
-  font-size: 3rem;
+  font-size: 2.5rem;
   /* line-height: ; */
   text-align: right;
   max-width: 100%;

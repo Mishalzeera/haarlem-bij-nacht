@@ -47,62 +47,62 @@ let iconBank = [
 ];
 
 let textBank = [
-  `Zo kut corona Zoom 
-  Zo coordinated Zoom
-  Zo mediated Zoom
-  Zo self medicated Zoom
-  Zo dishevelled Zoom
-  Zo cluttered kitchen table Zoom
+  `Zo kut corona Zoom <br>
+  Zo coordinated Zoom <br>
+  Zo mediated Zoom <br>
+  Zo self medicated Zoom <br>
+  Zo dishevelled Zoom <br>
+  Zo cluttered kitchen table Zoom <br>
   Zo downward facing dog yoga class Zoom`,
   `The corona virus had for a brief second, comfortable people considering a basic
   income for everyone. That moment has come and gone.`,
   `The corona virus was a crash course in civil discourse that more than half the class
   in the end failed.`,
-  `I’d rather that we
-  could do any one of these things that
-  would normally bore the shit
+  `I’d rather that we <br>
+  could do any one of these things that <br>
+  would normally bore the shit <br>
   out of me`,
-  `...but right now
-  we can’t.
-  So we don’t.
-  Maybe someday
+  `...but right now <br>
+  we can’t. <br>
+  So we don’t. <br>
+  Maybe someday <br>
   we will.`,
-  `The birds watch us as we pace in our gardens.
+  `The birds watch us as we pace in our gardens. <br>
   The empty skies remind us that we are supposed to
   stay in place.`,
-  `...a time before everyone
-  had been aware of their own
-  conscious will and
-  that some thought
+  `...a time before everyone <br>
+  had been aware of their own <br>
+  conscious will and <br>
+  that some thought <br>
   that this was ok.`,
   `The knowledge of nothing and the sanctity of nowhere...`,
   `This is the world where the damage done has only just begun.
   `,
   `This is the world where one should be grateful for quiet neighbors.
   `,
-  `Ink smeared and smudged,
-  words illegible
-  the dreams vanished from memory
-  as dreams so often
+  `Ink smeared and smudged, <br>
+  words illegible <br>
+  the dreams vanished from memory <br>
+  as dreams so often <br>
   tend to do.`,
-  `It is never too late to look
-  amongst the loose change
+  `It is never too late to look <br>
+  amongst the loose change <br>
   for the mind you lost.`,
-  `They are having discussions
-  and are making decisions
+  `They are having discussions <br>
+  and are making decisions <br>
   that are causing divisions.`,
-  `The peanut butter is finished
-  and the dog is eyeing the rabbits
+  `The peanut butter is finished <br>
+  and the dog is eyeing the rabbits <br>
   and there is a princess fluttering around.`,
   `...non-answers to most of my random questions...
   `,
-  `Shelter from the storm
-  is a makeshift tent of
-  stolen isolation material
+  `Shelter from the storm <br>
+  is a makeshift tent of <br>
+  stolen isolation material <br>
   or a cardboard box.`,
-  `...and as unusual as all this
+  `...and as unusual as all this <br>
   might seem to be.`,
-  `...when we heard the news that Tom Hanks
+  `...when we heard the news that Tom Hanks <br>
   had contracted the coronavirus...`,
 ];
 
@@ -111,7 +111,7 @@ function randomPicIconText() {
   document.getElementById("current-photo").src = imgBank[randomNum];
 
   const randomNum2 = Math.floor(Math.random() * textBank.length);
-  document.querySelector("#current-text").textContent = textBank[randomNum2];
+  document.querySelector("#current-text").innerHTML = textBank[randomNum2];
   const randomNum3 = Math.floor(Math.random() * iconBank.length);
   document.querySelector("#btn-icon").src = iconBank[randomNum3];
 

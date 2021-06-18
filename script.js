@@ -25,7 +25,7 @@ let imgBank = [
   "assets/img/hbn19.jpg",
   "assets/img/hbn20.jpg",
   "assets/img/hbn21.jpg",
-  "assets/img/hbn22.jpg",
+  // "assets/img/hbn22.jpg",
   "assets/img/hbn23.jpg",
   "assets/img/hbn24.jpg",
   "assets/img/hbn25.jpg",
@@ -47,13 +47,13 @@ let iconBank = [
 ];
 
 let textBank = [
-  `Zo kut corona Zoom <br>
-  Zo coordinated Zoom <br>
-  Zo mediated Zoom <br>
-  Zo self medicated Zoom <br>
-  Zo dishevelled Zoom <br>
-  Zo cluttered kitchen table Zoom <br>
-  Zo downward facing dog yoga class Zoom`,
+  // `Zo kut corona Zoom <br>
+  // Zo coordinated Zoom <br>
+  // Zo mediated Zoom <br>
+  // Zo self medicated Zoom <br>
+  // Zo dishevelled Zoom <br>
+  // Zo cluttered kitchen table Zoom <br>
+  // Zo downward facing dog yoga class Zoom`,
   `The corona virus had for a brief second, comfortable people considering a basic
   income for everyone. That moment has come and gone.`,
   `The corona virus was a crash course in civil discourse that more than half the class
@@ -102,8 +102,8 @@ let textBank = [
   or a cardboard box.`,
   `...and as unusual as all this <br>
   might seem to be.`,
-  `...when we heard the news that Tom Hanks <br>
-  had contracted the coronavirus...`,
+  // `...when we heard the news that Tom Hanks <br>
+  // had contracted the coronavirus...`,
 ];
 
 function randomPicIconText() {

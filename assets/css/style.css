@@ -227,7 +227,12 @@ img {
   color: var(--global-text-colour);
   background: var(--body-background-colour);
   border: none;
-  opacity: 0.5;
+  opacity: 0.3;
+  transition: all 400ms ease-in-out;
+}
+.lang-btn:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 .contact-book-link {
   font-size: 1.3rem;

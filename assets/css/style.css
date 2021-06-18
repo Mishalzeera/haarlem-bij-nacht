@@ -39,13 +39,17 @@ img {
 
 .head-img {
   margin: 1rem;
-  width: 3rem;
+  width: 3.5rem;
   transition: all 350ms ease-in-out;
 }
 
 .head-img:hover,
 .head-img:focus {
   opacity: 0.6;
+}
+
+#road {
+  width: 3rem;
 }
 
 .head-text {
@@ -127,8 +131,8 @@ img {
 
 #rnd-btn {
   /* display: none; */
-  margin: 1rem;
-  width: 4rem;
+  margin: 1.5rem;
+  width: 3.5rem;
   border: none;
 }
 
@@ -227,7 +231,7 @@ img {
   color: var(--global-text-colour);
   background: var(--body-background-colour);
   border: none;
-  opacity: 0.3;
+  opacity: 0.5;
   transition: all 400ms ease-in-out;
 }
 .lang-btn:hover {
@@ -263,6 +267,10 @@ img {
   letter-spacing: 3px;
   text-align: right;
   margin-bottom: 2rem;
+}
+
+.my-contact {
+  font-size: 0.7rem;
 }
 
 @media (max-width: 920px) {

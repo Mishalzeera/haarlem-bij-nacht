@@ -111,7 +111,7 @@ img {
   color: var(--global-text-colour);
   font-size: 2.5rem;
   /* line-height: ; */
-  text-align: right;
+  text-align: left;
   max-width: 100%;
 }
 

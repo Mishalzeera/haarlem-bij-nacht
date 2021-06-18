@@ -132,28 +132,20 @@ function indexFade() {
   $(".index-body").fadeIn(3000);
 }
 
-
 function langChange() {
-  let langSelect = document.querySelector('.lang-btn');
-  let dutchSection = document.querySelector('.contact-dutch');
-  let englishSection = document.querySelector('.contact-english')
+  let langSelect = document.querySelector(".lang-btn");
+  let dutchSection = document.querySelector(".contact-dutch");
+  let englishSection = document.querySelector(".contact-english");
 
-  console.log('clicked!');
+  console.log("clicked!");
 
-  if(dutchSection.style.display === 'block'){
-    dutchSection.style.display = 'none';
-    englishSection.style.display = 'block';
-  langSelect.textContent = 'NL';
-  
-  }
-  else {
+  if (dutchSection.style.display === "block") {
+    dutchSection.style.display = "none";
+    englishSection.style.display = "block";
+    langSelect.textContent = "NL";
+  } else {
     englishSection.style.display = "none";
     dutchSection.style.display = "block";
-    langSelect.textContent = 'Eng';
+    langSelect.textContent = "Eng";
   }
-
-  
-    
-  }
-  
-
+}

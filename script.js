@@ -58,10 +58,10 @@ let textBank = [
   income for everyone. That moment has come and gone.`,
   `The corona virus was a crash course in civil discourse that more than half the class
   in the end failed.`,
-  `I’d rather that we <br>
-  could do any one of these things that <br>
-  would normally bore the shit <br>
-  out of me`,
+  // `I’d rather that we <br>
+  // could do any one of these things that <br>
+  // would normally bore the shit <br>
+  // out of me`,
   `...but right now <br>
   we can’t. <br>
   So we don’t. <br>

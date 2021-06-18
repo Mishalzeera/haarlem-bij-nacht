@@ -119,11 +119,16 @@ img {
   .flex-parent {
     flex-direction: column;
   }
+
+  /* .flex-child {
+    max-width: 95%;
+  } */
   .photo-container {
     order: 2;
   }
   .text-container {
     font-size: 2.5rem;
+    max-width: 90%;
     text-align: left;
     order: 1;
   }

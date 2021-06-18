@@ -143,13 +143,13 @@ function langChange() {
   if(dutchSection.style.display === 'block'){
     dutchSection.style.display = 'none';
     englishSection.style.display = 'block';
-  langSelect.textContent = 'Nederlands';
+  langSelect.textContent = 'NL';
   
   }
   else {
     englishSection.style.display = "none";
     dutchSection.style.display = "block";
-    langSelect.textContent = 'English';
+    langSelect.textContent = 'Eng';
   }
 
   

@@ -131,3 +131,29 @@ function mediumFade() {
 function indexFade() {
   $(".index-body").fadeIn(3000);
 }
+
+
+function langChange() {
+  let langSelect = document.querySelector('.lang-btn');
+  let dutchSection = document.querySelector('.contact-dutch');
+  let englishSection = document.querySelector('.contact-english')
+
+  console.log('clicked!');
+
+  if(dutchSection.style.display === 'block'){
+    dutchSection.style.display = 'none';
+    englishSection.style.display = 'block';
+  langSelect.textContent = 'Nederlands';
+  
+  }
+  else {
+    englishSection.style.display = "none";
+    dutchSection.style.display = "block";
+    langSelect.textContent = 'English';
+  }
+
+  
+    
+  }
+  
+

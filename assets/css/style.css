@@ -199,6 +199,14 @@ img {
   letter-spacing: 5px;
 }
 
+.contact-p-header-2 {
+  font-family: inherit;
+  font-weight: 400;
+  margin-top: 2.5rem;
+  font-size: 1.4rem;
+  text-align: center;
+  letter-spacing: 3px;
+}
 .contact-paragraph {
   text-align: justify;
   line-height: 1.6;
@@ -207,6 +215,20 @@ img {
   font-weight: 300;
 }
 
+.contact-dutch {
+  display: block;
+}
+
+.contact-english {
+  display: none;
+}
+
+.lang-btn {
+  color: var(--global-text-colour);
+  background: var(--body-background-colour);
+  border: none;
+  opacity: 0.5;
+}
 .contact-book-link {
   font-size: 1.3rem;
   margin-top: 10rem;

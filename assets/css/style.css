@@ -225,11 +225,11 @@ img {
 }
 
 .contact-dutch {
-  display: block;
+  /* display: block; */
 }
 
 .contact-english {
-  display: none;
+  /* display: none; */
 }
 
 .lang-btn {

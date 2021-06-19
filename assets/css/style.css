@@ -1,3 +1,5 @@
+/* --------------------Global Styles */
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
 
 * {
@@ -11,11 +13,8 @@
   --global-text-colour: rgba(240, 241, 255, 0.767);
 }
 body {
-  /* display: none; */
-  font-family: Arial, Helvetica, sans-serif;
-  font-family: Lato;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 100;
-  /* font-weight: lighter; */
   color: var(--global-text-colour);
   background-color: var(--body-background-colour);
 }
@@ -23,6 +22,8 @@ body {
 .index-body {
   display: none;
 }
+/* ^^^^^works along with the jQuery and GSAP fade settings to fade index page */
+
 .lg-size-container {
   max-width: 2500px;
 }
@@ -52,6 +53,8 @@ img {
 #road {
   width: 3rem;
 }
+
+/* ^^^^^^ due to black in the images, 'road' was resized smaller to visually blend in */
 
 .head-text {
   line-height: 1.4;
@@ -84,12 +87,15 @@ img {
   }
 }
 
+/* ^^^^^^^media query for the index page, mobile view */
+
 .dual-container {
   display: none;
   max-width: 88%;
   margin: 0 auto;
-  /* border: 1px solid white; */
 }
+
+/* ^^^^^^^^ display none, part of the GSAP opacity animation blend */
 
 .flex-parent {
   display: flex;
@@ -159,6 +165,8 @@ img {
   color: var(--global-text-colour);
 }
 
+/* ^^^^^ rnd-btn is the randomiser button on the main page, grouped here together for convenience */
+
 @media (max-width: 580px) {
   .dual-container {
     max-width: 90%;
@@ -183,6 +191,9 @@ img {
 .contact-body {
   display: none;
 }
+
+/* ^^^^^^ display none for the global jQuery fade  */
+
 .contact-container {
   margin: 0 auto;
   max-width: 65%;
@@ -192,6 +203,7 @@ img {
   display: flex;
   flex-direction: column;
 }
+
 .contact-p-header {
   font-family: inherit;
   font-weight: 400;
@@ -224,10 +236,14 @@ img {
   opacity: 0.5;
   transition: all 400ms ease-in-out;
 }
+
+/* ^^^^ JS changes language back and forth, lang-btn is the click target */
+
 .lang-btn:hover {
   opacity: 1;
   cursor: pointer;
 }
+
 .contact-book-link {
   font-size: 1.3rem;
   margin-top: 5rem;

@@ -159,7 +159,7 @@ img {
 
 #index-btn {
   margin-top: 35vh;
-  background-color: black;
+  background-color: var(--body-background-colour);
   font-size: 1rem;
   text-transform: lowercase;
   letter-spacing: 2px;

@@ -40,8 +40,8 @@ let iconBank = [
   "assets/btn-img/flower1-nobg.png",
   "assets/btn-img/flower2-nobg.png",
   "assets/btn-img/flower3-nobg.png",
-  // "assets/btn-img/flower4.png",
-  // "assets/btn-img/flower5.png",
+  "assets/btn-img/flower4-nobg.png",
+  "assets/btn-img/flower5-nobg.png",
   "assets/btn-img/flower6-nobg.png",
   "assets/btn-img/flower7-nobg.png",
 ];

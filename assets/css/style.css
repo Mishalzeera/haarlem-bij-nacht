@@ -42,7 +42,7 @@ img {
 .head-img {
   border-radius: 50%;
   margin: 1rem;
-  width: 4rem;
+  width: 3.6rem;
   transition: all 350ms ease-in-out;
 }
 
@@ -52,7 +52,7 @@ img {
 }
 
 #road {
-  width: 3.5rem;
+  width: 3.4rem;
 }
 
 /* ^^^^^^ due to black in the images, 'road' was resized smaller to visually blend in */

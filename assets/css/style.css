@@ -139,7 +139,7 @@ img {
 #rnd-btn {
   background: var(--body-background-colour);
   margin: 1.5rem;
-  width: 3.5rem;
+  width: 4.5rem;
   border: none;
 }
 
@@ -181,7 +181,7 @@ img {
     margin-top: 25vh;
   }
   #rnd-btn {
-    width: 3.2rem;
+    width: 3.6rem;
   }
   .text-container {
     font-size: 1.5rem;

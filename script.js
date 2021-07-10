@@ -132,12 +132,16 @@ function langChange() {
   let englishSection = document.querySelector(".contact-english");
 
   if (dutchSection.style.display === "block") {
+    $(".contact-dutch").fadeOut(800);
     dutchSection.style.display = "none";
+    $(".contact-english").fadeIn(800);
     englishSection.style.display = "block";
     langSelect.textContent = "NL";
   } else {
     englishSection.style.display = "none";
+    $(".contact-english").fadeOut(800);
     dutchSection.style.display = "block";
+    $(".contact-dutch").fadeIn(800);
     langSelect.textContent = "Eng";
   }
 }

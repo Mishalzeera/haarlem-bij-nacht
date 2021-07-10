@@ -306,3 +306,9 @@ img {
     opacity: 0.8;
   }
 }
+
+#my-link {
+  color: var(--global-text-colour);
+  font-family: inherit;
+  text-decoration: ivory;
+}

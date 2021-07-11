@@ -308,7 +308,7 @@ img {
 }
 
 #my-link {
-  color: var(--global-text-colour);
+  color: yellow;
   font-family: inherit;
   text-decoration: none;
 }

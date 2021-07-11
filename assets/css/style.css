@@ -310,5 +310,5 @@ img {
 #my-link {
   color: var(--global-text-colour);
   font-family: inherit;
-  text-decoration: ivory;
+  text-decoration: none;
 }

@@ -297,6 +297,10 @@ img {
     order: 2;
     line-height: 1.5;
   }
+
+  .contact-paragraph {
+    text-align: center;
+  }
   .contact-book-link {
     margin-top: 2rem;
     order: 1;
